@@ -1,0 +1,721 @@
+header{
+  width: 100%;
+  background: red;
+  position: fixed;
+  z-index: 100;
+  border-top: white solid 30px;
+}
+
+header img {
+  width: 15%;
+  float: left;
+  height: 124px;
+}
+
+nav {
+  float: left; 
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block;
+  padding: 54px;
+  color: white;
+  text-align: center;
+  
+}
+ 
+nav ul li:hover {
+  background: black
+}
+
+section{
+  max-width: 1024px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  padding-top: 200px;
+  font-size: 30px;
+  border-bottom: 5px solid red;
+  margin-bottom: 30px;
+  
+}
+
+h2{
+  padding-top: 50px;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+}
+
+h3{
+ font-size: 22px;
+ color: black;
+ text-align: center;
+ margin-bottom: 30px;
+ font-family: 'Times New Roman', Times, serif;
+  
+}
+
+h4{
+  padding-top: 50px;
+  font-size: 30px;
+  border-bottom: 5px solid red;
+  margin-bottom: 30px;
+}
+
+table{
+  width: 1020px;
+  font: normal 13px Arial ;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table th{
+  font:bold 15px Arial;
+  background-color: grey;
+  color: white;
+}
+
+.imgTh{
+  width: 20px;
+}
+
+.Ganador{
+  background-color: red;
+}
+
+.Retirado{
+  background-color: black;
+  color: white;
+}
+
+.Puntos{
+  background-color: gainsboro;
+}
+
+#Pilotos .EstructuraPil{
+  border-top: black 2px solid;
+  border-right: black 2px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 31%;
+  float: left;
+  margin-right: 15px;
+}
+
+#Pilotos .EstructuraPil .pMer{
+  font-size: 15px;
+  float: left;
+  margin-right: 167px;
+  margin-top: 20px;
+  border-left: rgb(0, 255, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .imgBan{
+  height: 30px;
+  margin-top: 20px;
+  border: black 1px solid;
+ 
+}
+
+#Pilotos .EstructuraPil .imgLog{
+  max-height: 30px;
+  max-width: 44px;
+  margin-top: 20px;
+}
+
+#Pilotos .EstructuraPil .imgPil{
+  margin-left: 50px;
+  max-width: 100%;
+}
+
+#Pilotos .EstructuraPil .pRed{
+  font-size: 15px;
+  float: left;
+  margin-right: 167px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRedB{
+  font-size: 15px;
+  float: left;
+  margin-right: 120px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRac{
+  font-size: 15px;
+  float: left;
+  margin-right: 180px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRaci{
+  font-size: 15px;
+  float: left;
+  margin-right: 145px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRen{
+  font-size: 15px;
+  float: left;
+  margin-right: 165px;
+  margin-top: 20px;
+  border-left: rgb(251, 255, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pMac{
+  font-size: 15px;
+  float: left;
+  margin-right: 190px;
+  margin-top: 20px;
+  border-left: rgb(255, 153, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pMacl{
+  font-size: 15px;
+  float: left;
+  margin-right: 170px;
+  margin-top: 20px;
+  border-left: rgb(255, 153, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pFer{
+  font-size: 15px;
+  float: left;
+  margin-right: 175px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pAlp{
+  font-size: 15px;
+  float: left;
+  margin-right: 200px;
+  margin-top: 20px;
+  border-left: white 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pAlph{
+  font-size: 15px;
+  float: left;
+  margin-right: 150px;
+  margin-top: 20px;
+  border-left: white 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRena{
+  font-size: 15px;
+  float: left;
+  margin-right: 185px;
+  margin-top: 20px;
+  border-left: rgb(251, 255, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pFerr{
+  font-size: 15px;
+  float: left;
+  margin-right: 198px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 0) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pRacin{
+  font-size: 15px;
+  float: left;
+  margin-right: 165px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 255) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pAlf{
+  font-size: 15px;
+  float: left;
+  margin-right: 175px;
+  margin-top: 20px;
+  border-left: rgb(163, 7, 7) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pAlfa{
+  font-size: 15px;
+  float: left;
+  margin-right: 90px;
+  margin-top: 20px;
+  border-left: rgb(163, 7, 7) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pAlfaR{
+  font-size: 15px;
+  float: left;
+  margin-right: 160px;
+  margin-top: 20px;
+  border-left: rgb(163, 7, 7) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pHas{
+  font-size: 15px;
+  float: left;
+  margin-right: 180px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pHasF{
+  font-size: 15px;
+  float: left;
+  margin-right: 100px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pHasF1{
+  font-size: 15px;
+  float: left;
+  margin-right: 100px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+#Pilotos .EstructuraPil .pWil{
+  font-size: 15px;
+  float: left;
+  margin-right: 170px;
+  margin-top: 20px;
+  border-left: rgb(0, 183, 255) 5px solid;
+  padding: 5px;
+}
+
+#LewisHamilton:hover{ 
+  border-top:rgb(0, 255, 255) 2px solid;
+  border-right: rgb(0, 255, 255) 2px solid;
+}
+
+#ValterriBottas:hover{
+  border-top:rgb(0, 255, 255) 2px solid;
+  border-right: rgb(0, 255, 255) 2px solid;
+}
+
+#MaxVerstappen:hover{
+  border-top: rgb(0, 47, 255) 2px solid;
+  border-right:  rgb(0, 47, 255) 2px solid;
+}
+
+#SergioPerez:hover{
+  border-top: rgb(255, 0, 255) 2px solid;
+  border-right:  rgb(255, 0, 255) 2px solid;
+}
+
+#DanielRicciardo:hover{
+  border-top:  rgb(251, 255, 0) 2px solid;
+  border-right:  rgb(251, 255, 0) 2px solid;
+}
+
+#CarlosSainz:hover{
+  border-top:  rgb(255, 153, 0) 2px solid;
+  border-right:  rgb(255, 153, 0) 2px solid;
+}
+
+#AlexanderAlbon:hover{
+  border-top:  rgb(0, 47, 255) 2px solid;
+  border-right:  rgb(0, 47, 255) 2px solid;
+}
+
+#CharlesLeclerc:hover{
+  border-top:  rgb(255, 0, 0) 2px solid;
+  border-right:  rgb(255, 0, 0) 2px solid;
+}
+
+#LandoNorris:hover{
+  border-top:  rgb(255, 153, 0) 2px solid;
+  border-right:  rgb(255, 153, 0) 2px solid;
+}
+
+#PierreGasly:hover{
+  border-top:  white 2px solid;
+  border-right:  white 2px solid;
+}
+
+#LanceStroll:hover{
+  border-top:   rgb(255, 0, 255) 2px solid;
+  border-right:  rgb(255, 0, 255) 2px solid;
+}
+
+#EstebanOcon:hover{
+  border-top:    rgb(251, 255, 0) 2px solid;
+  border-right:   rgb(251, 255, 0) 2px solid;
+}
+
+#SebastianVettel:hover{
+  border-top:  rgb(255, 0, 0) 2px solid;
+  border-right:  rgb(255, 0, 0) 2px solid;
+}
+
+#DaniilKvyat:hover{
+  border-top:  white 2px solid;
+  border-right:  white 2px solid;
+} 
+
+#NicoHülkenberg:hover{
+  border-top:  rgb(255, 0, 255) 2px solid;
+  border-right:  rgb(255, 0, 255) 2px solid;
+}
+
+#AntonioGiovinazzi:hover{
+  border-top:  rgb(163, 7, 7) 2px solid;
+  border-right:  rgb(163, 7, 7) 2px solid;
+}
+
+#KimiRäikkönen:hover{
+  border-top:  rgb(163, 7, 7) 2px solid;
+  border-right:  rgb(163, 7, 7) 2px solid;
+}
+
+#GeorgeRussell:hover{
+  border-top:  rgb(0, 183, 255) 2px solid;
+  border-right:  rgb(0, 183, 255) 2px solid;
+}
+
+#RomainGorsjean:hover{
+  border-top:  rgb(114, 114, 114) 2px solid;
+  border-right:  rgb(114, 114, 114) 2px solid;
+}
+
+#KevinMagnussen:hover{
+  border-top:  rgb(114, 114, 114) 2px solid;
+  border-right:  rgb(114, 114, 114) 2px solid;
+}
+
+#NicholasLatifi:hover{
+  border-top:  rgb(0, 183, 255) 2px solid;
+  border-right:  rgb(0, 183, 255) 2px solid;
+}
+
+.EstructuraCoc{
+  border-top: black 2px solid;
+  border-right: black 2px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+  margin-right: 15px;
+
+}
+
+.EstructuraCoc .pMerCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 308px;
+  margin-top: 20px;
+  border-left: rgb(0, 255, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pMerCocH{
+  font-size: 20px;
+  float: left;
+  margin-right: 310px;
+  margin-top: 20px;
+  border-left: rgb(0, 255, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pMerCocB{
+  font-size: 20px;
+  float: left;
+  margin-right: 320px;
+  margin-top: 20px;
+  border-left: rgb(0, 255, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .imgCoc{
+  height: 40px;
+  margin-top: 20px;
+}
+
+.EstructuraCoc .imgCoch{
+  width: 450px;
+  margin-top: 10px;
+}
+
+.EstructuraCoc .imgMerCocM{
+  height: 50px;
+  margin-top: 10px;
+}
+
+.EstructuraCoc .pMerCocR{
+  font-size: 20px;
+  float: left;
+  margin-right: 250px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pMerCocRM{
+  font-size: 20px;
+  float: left;
+  margin-right: 295px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .imgMerCocM{
+  height: 60px;
+  margin-top: 10px;
+}
+
+.EstructuraCoc .pMcLCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 290px;
+  margin-top: 20px;
+  border-left: rgb(255, 153, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .imgCocMc{
+  max-width: 100px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.EstructuraCoc .pMcLC{
+  font-size: 20px;
+  float: left;
+  margin-right: 320px;
+  margin-top: 20px;
+  border-left: rgb(255, 153, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pRacCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 270px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pRacCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 325px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pRenCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 310px;
+  margin-top: 20px;
+  border-left: rgb(251, 255, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pRenCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 300px;
+  margin-top: 20px;
+  border-left: rgb(251, 255, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pFerCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 330px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pFerCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 315px;
+  margin-top: 20px;
+  border-left: rgb(255, 0, 0) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pAlpCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 290px;
+  margin-top: 20px;
+  border-left: white 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pAlpCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 330px;
+  margin-top: 20px;
+  border-left: white 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pAlfCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 200px;
+  margin-top: 20px;
+  border-left: rgb(163, 7, 7) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pAlfCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 280px;
+  margin-top: 20px;
+  border-left: rgb(163, 7, 7) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pHaaCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 260px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pHaaCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 280px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pHaaCoche{
+  font-size: 20px;
+  float: left;
+  margin-right: 300px;
+  margin-top: 20px;
+  border-left: rgb(114, 114, 114) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pWilCoc{
+  font-size: 20px;
+  float: left;
+  margin-right: 300px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+.EstructuraCoc .pWilCoch{
+  font-size: 20px;
+  float: left;
+  margin-right: 310px;
+  margin-top: 20px;
+  border-left: rgb(0, 47, 255) 5px solid;
+  padding: 5px;
+}
+
+.PilotosHistoricos{
+  width: 400px;
+  margin-top: 30px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.pPilHis{
+  margin-top: 26px; 
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.imgPilHis{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  float: left;
+  max-width: 20%;
+  max-width: 20%;
+}
+
+.imgCir{
+  margin-top: 30px;
+  margin-right: 170px;
+  max-width: 400px;
+  float: left;
+
+}
+
+.pCir1p{
+  margin-top: 30px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pCir{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pBandera{
+  width: 15px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.video{
+  width: 1024px;
+  height: 512px;
+}
